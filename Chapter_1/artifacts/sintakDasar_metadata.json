@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Chapter_1/sintak_dasar.sol": "sintakDasar"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Chapter_1/sintak_dasar.sol": {
+			"keccak256": "0xd600a7a9495158cd1e11169a15a0d58c9046f6ba42cd182855d7dd5fd2c80c4e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cc5fe7b3f73939fb600273108b86dcaf103e782c9120bdf43c3d133e14d61ff6",
+				"dweb:/ipfs/QmYS99bNiWXKqhssJ5Czt4kR7S43zNGRZh4cvHKWo5AqP2"
+			]
+		}
+	},
+	"version": 1
+}
